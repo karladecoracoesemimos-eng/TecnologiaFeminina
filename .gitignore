@@ -1,0 +1,10 @@
+#sistema operacional
+.Ds_store
+Thumbs.db
+
+#Editor
+.vscode/settings.json
+
+#Arquivos temporarios
+*.temp
+*.log

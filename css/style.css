@@ -1,0 +1,58 @@
+:root{
+    --purple-900:#2D1B4E;
+    --purple-800:#3C2266;
+    --purple-700:#4E2D8C;
+    --purple-600:#6B3FA0;
+    --purple-500:#8B5CF6;
+    --pink-600:#DB2777;
+    --pink-500:#EC4899;
+    --pink-400:#F472B6;
+    --pink-100:#FCE7F3;
+    --lavander-50:#FAF5FF;
+    --lavander-100:#F3E8FF;
+    --peach-100:#FDE3D3;
+    --lilac-100:#E9D8FD;
+    --lilac-500:#9F6BD6;
+    --mint-100:#D4F4E2;
+    --mint-500:#34A878;
+    --gold-100:#FDECC8;
+    --gold-500:#E5A52C;
+    --ink:#2D1B4E;
+    --gray_600:#6B6478;
+    --gray_300:#E4D8F0;
+    --white:#ffffff;
+    --shadow-sm:0 4px 14px rgba(76,34,102,0.08);
+    --shadow-md:0 12px 30px rgba(76,34,102,0.12);
+    --radius-lg:24px;
+    --radius-md:16px;
+    --radius-pill:999px;
+    --font-display: 'Poppoins', sans-serif;
+    --font-body:'Nunito', sans-serif;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: var(--font-body);
+        color: var(--ink);
+        background: var(--white);
+        line-height: 1.6;
+        overflow-x: hidden;
+    }
+    img,svg{display:block; max-width: 100%;}
+    a{text-decoration: none; color:inherit;}
+    ul{list-style: none;}
+    button{font-family: inherit; cursor: pointer; background: none;}
+    h1, h2, h3{font-family: var(--font-display); color: var(--purple-800); line-height: 1.15;}
+    
+    .container{
+        width: 100%;
+        max-width: 1180px;
+        padding: 0 32px;
+    }
+
+
+
+    
+}
